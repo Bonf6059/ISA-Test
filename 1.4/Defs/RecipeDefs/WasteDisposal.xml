@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RecipeDef>
+    <defName>WasteDisposal</defName>
+    <label>disposal of wastepack</label>
+    <description>Dispose of wastepacks underground.</description>
+    <jobString>Burying wastepack.</jobString>
+    <workAmount>500</workAmount>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wastepack</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+    </products>
+  </RecipeDef>
+
+
+  <RecipeDef>
+    <defName>WasteDisposal</defName>
+    <label>disposal of wastepack</label>
+    <description>Dispose of wastepacks underground.</description>
+    <jobString>Burying wastepack.</jobString>
+    <workAmount>750</workAmount>
+    <workSpeedStat>MiningSpeed</workSpeedStat>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Wastepack</li>
+          </thingDefs>
+        </filter>
+        <count>25</count>
+      </li>
+    </ingredients>
+    <products>
+    </products>
+  </RecipeDef>
+
+</Defs>
